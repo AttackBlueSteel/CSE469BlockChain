@@ -39,9 +39,9 @@ peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.exa
 
 
 docker logs <your_cli>
-## Example: 
-## docker logs orderer.example.com
-## docker logs peer0.org1.example.com
+### Example: 
+### docker logs orderer.example.com
+### docker logs peer0.org1.example.com
 
 
 peer channel getinfo -c mychannel
